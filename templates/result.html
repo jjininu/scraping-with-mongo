@@ -1,0 +1,56 @@
+<!--<!doctype html>-->
+<!--<html>-->
+<!--   <body >-->
+<!--       <h1> {{ result }}</h1>-->
+<!--   </body>-->
+<!--</html>-->
+
+   <style>-->
+     body { background-color:#2FD09F}
+   </style>
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Available Houses Addreses</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+
+  <div class="table-users">
+   <div class="header">Available Houses Addreses</div>
+      <div style="overflow-x:auto; overflow-y:scroll;">
+          <table>
+              <tr>
+                 <th>Addreses</th>
+
+              </tr>
+              {% for data in result %}
+          <tr>
+              <td>{{ data }}</td>
+
+
+
+           {% endfor %}
+          </table>
+      </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
