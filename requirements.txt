@@ -4,7 +4,7 @@ charset-normalizer
 click
 colorama
 dnspython
-Flask=
+Flask
 idna
 importlib-metadata
 itsdangerous
