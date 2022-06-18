@@ -1,6 +1,7 @@
 import json
 
-from flask import Flask
+from flask import Flask,render_template,request
+
 
 import mongodb
 import scraping
