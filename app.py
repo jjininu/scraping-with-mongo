@@ -1,6 +1,6 @@
 import json
 
-from flask import Flask, render_template, request,jsonify
+from flask import Flask
 
 import mongodb
 import scraping
@@ -26,17 +26,6 @@ def result():
     data = retrive_data("House_data",input)
     result_addess = [i  for i in data]
     return render_template('result.html',result=result_addess)
-
-
-
-
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
-import json
-
-
 
 
 
