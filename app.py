@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import json
 
 from flask import Flask, render_template, request,jsonify
@@ -35,7 +34,6 @@ def result():
 
 if __name__ == '__main__':
     app.run(debug=True)
-=======
 import json
 
 from flask import Flask, render_template, request,jsonify
@@ -72,4 +70,3 @@ def result():
 
 if __name__ == '__main__':
     app.run(debug=True)
->>>>>>> 6a8bff3f4d02d77b473c2a0602097aede01157e9
