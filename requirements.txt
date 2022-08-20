@@ -1,5 +1,5 @@
 colorama==0.4.4
-Flask 
+flask 
 importlib-metadata==4.11.3
 itsdangerous==2.1.2
 Jinja2==3.1.2
