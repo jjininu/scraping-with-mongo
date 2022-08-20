@@ -13,3 +13,14 @@ Werkzeug==2.1.2
 zipp==3.8.0
 gunicorn
 pymongo
+numpy
+flask 
+gunicorn
+sklearn
+pandas
+PyYAML
+evidently
+dill
+matplotlib
+xgboost
+-e .
